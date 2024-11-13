@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card com a prosposta</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f5f5dc; /* Cor de fundo bege vintage */
+            font-family: 'Georgia', serif;
+        }
+
+        .sticky-note {
+            background-color: #f4e1c1; /* Amarelo suave vintage */
+            width: 320px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            font-size: 15px;
+            color: #4b3b40; /* Marrom escuro vintage */
+            position: relative;
+        }
+
+        .sticky-note::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            background-color: #a36a4f; /* Marrom avermelhado vintage */
+            transform: rotate(45deg);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h3 {
+            margin-top: 10px;
+            color: #7b3e19; /* Marrom queimado */
+        }
+
+        p {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        li:hover {
+            color: #6b8e23; /* Verde oliva vintage */
+        }
+
+        a {
+            color: #8b4513; /* Marrom siena queimado */
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #a0522d; /* Marrom claro */
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="sticky-note">
+        <h3>Objetivo:</h3>
+        <p>Criar uma página HTML simples para uma “página pessoal”, aplicando estilização com classes, IDs, pseudoclasses e cores em inglês.</p>
+        
+        <h3>HTML Básico:</h3>
+        <p>Crie um arquivo HTML que tenha um título, um cabeçalho (header), uma seção sobre você (section), uma lista de hobbies e um rodapé (footer).</p>
+        
+        <h3>Estilos com CSS:</h3>
+        <ul>
+            <li>Defina uma cor de fundo usando uma classe para o cabeçalho e o rodapé.</li>
+            <li>Aplique uma cor de texto específica para o título da página usando uma id.</li>
+            <li>Estilize os itens da lista de hobbies com uma classe, usando diferentes cores para o texto.</li>
+            <li>Pseudoclasses: Ao passar o mouse sobre os itens da lista de hobbies, mude a cor do texto.</li>
+            <li>Defina uma cor diferente para os links da página antes e depois de serem visitados.</li>
+        </ul>
+
+        <h3>Desafio adicional:</h3>
+        <p>Adicione uma borda colorida ao redor do rodapé ao passar o mouse nele usando uma pseudoclasse.</p>
+    </div>
+</body>
+</html>
